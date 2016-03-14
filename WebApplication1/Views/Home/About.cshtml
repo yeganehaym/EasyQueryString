@@ -1,0 +1,14 @@
+﻿@model WebApplication1.Models.EmployeesRequestBody
+@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+your query string information is<br/>
+<b>CurrentPage:</b>@Model.CurrentPage<br/>
+<b>RowCount:</b>@Model.RowCount<br/>
+<b>SearchPhrase:</b>@Model.SearchPhrase<br/>
+<b>sort[sender]:</b>@Model.SortDictionary[0].ToString()<br/>
+
