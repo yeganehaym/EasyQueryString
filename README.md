@@ -6,6 +6,11 @@ a class by reflection to work with querystrings easily
 
 easyquerystring helps you establish a connection between your property names and query string names.you dont have to follow rule that query string field name must be same as class property name anymore
 
+
+On Nuget:
+```Install-Package EasyQueryString```
+
+
 look at below code:
 
 this is querystring: **current=1&rowCount=10&sort[sender]=asc&searchPhrase=keyword**
